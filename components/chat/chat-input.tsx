@@ -80,7 +80,7 @@ const ChatInput = ({ apiUrl, query, name, type }: ChatInputProps) => {
                   />
                   <div className={'absolute top-7 right-8'}>
                     <CustomEmojiPicker
-                      onChange={(emoji: string) => field.onChange(`${field.value} ${emoji}`)}
+                        onChange={(emoji: string) => field.onChange(`${field.value} ${emoji}`)}
                     />
                   </div>
                 </div>
