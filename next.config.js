@@ -12,8 +12,7 @@ const nextConfig = {
         domains: [
             "uploadthing.com"
         ]
-    },
-    swcMinify: false
+    }
 }
 
 module.exports = nextConfig
